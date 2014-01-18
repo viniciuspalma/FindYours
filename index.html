@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
     <head>
-    <title>CardFinding</title>
+    <title>FindYours</title>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
     <link rel="stylesheet" href="css/foundation.css" />
@@ -22,8 +22,8 @@
                     <!-- whatever you want goes here -->
                     <ul class="off-canvas-list">
                         <li><label>FindYours</label></li>
-                        <li><a href="#" class="btn-write">Item 1</a></li>
-                        <li><a href="#">Item 2</a></li>
+                        <li><a href="#" class="btn-write">Deixe seu recado</a></li>
+                        <li><a href="#">Achados</a></li>
                         <li><a href="#">Configurações</a></li>
                         <li><a href="#">Logout</a></li>
                     </ul>
@@ -37,6 +37,23 @@
                     </div>
                     <div class="write" id="write">
                         <a class="left-off-canvas-toggle menu-icon" id="btn-menu"><span></span></a>
+                        <form action="#" method="get">
+                            <div class="row">
+                                <div class="large-12 columns">
+                                  <textarea type="text" placeholder="Escreva o recado..." rows="10" id="recado"></textarea>
+                                </div>
+                            </div>
+                            <div class="row>">
+                                <div class="large-12 columns">
+                                    <button class="button expand">Deixe o recado</button>
+                                </div>    
+                            </div>
+                            <div class="row>">
+                                <div class="large-12 columns">
+                                    <button class="button expand">Deixe um audio</button>
+                                </div>    
+                            </div>
+                        </form>
                     </div>
                 </div>
                 <!-- close the off-canvas menu -->
@@ -45,7 +62,7 @@
         </div>
         
         <script src="js/jquery.js"></script>
-        <script src="js/foundation.min.js"></script>
+        <script src="js/foundation.min.js"></script>        
         <script src="js/main.js"></script>
     </body>
 </html>

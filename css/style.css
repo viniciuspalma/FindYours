@@ -3,7 +3,7 @@
     width:100%;
     -webkit-animation: row-in 4s ease-in-out 0s 1 normal;
     -ms-animation: row-in 4s ease-in-out 0s 1 normal;
-    margin-top:5%;
+    margin-top:25%;
     z-index:2;
     height:auto;
 }
@@ -13,7 +13,7 @@
 }
 
 .inicio{
-    background:transparent url('http://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg') 0 0 no-repeat fixed;
+    background:transparent url('http://localhost:58889/http-services/emulator-webserver/ripple/userapp//C/Users/Winter/Documents/GitHub/FindYours/img/bg.JPG') 0 0 no-repeat fixed;
     width:100%;
 }
 .write-view{
@@ -27,27 +27,28 @@
     width:100%;
     top:0;
     left:0;
-    background-color:rgba(0,0,0,.8);
+    background-color:rgba(0,0,0,.85);
 }
+
 @-webkit-keyframes row-in {
     0% { 
         margin-top:-800px;
     }
-    80% { 
-        margin-top:20%; 
+    90% { 
+        margin-top:30%; 
     }
     100% {
-        margin-top:5%;
+        margin-top:25%;
     }
 }
 @-ms-keyframes row-in {
     0% { 
         margin-top:-800px;
     }
-    80% { 
-        margin-top:20%; 
+    90% { 
+        margin-top:30%; 
     }
     100% {
-        margin-top:5%;
+        margin-top:25%;
     }
 }
